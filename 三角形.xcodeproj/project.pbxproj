@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20805FBE1C310BFD00320723 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 20805FBD1C310BFD00320723 /* ViewController1.m */; };
 		20EAF0641BC3B36E00582173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EAF0631BC3B36E00582173 /* main.m */; };
 		20EAF0671BC3B36E00582173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EAF0661BC3B36E00582173 /* AppDelegate.m */; };
 		20EAF06A1BC3B36E00582173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EAF0691BC3B36E00582173 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20805FBC1C310BFD00320723 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		20805FBD1C310BFD00320723 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		20EAF05E1BC3B36E00582173 /* 三角形.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "三角形.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EAF0621BC3B36E00582173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20EAF0631BC3B36E00582173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				20EAF0661BC3B36E00582173 /* AppDelegate.m */,
 				20EAF0681BC3B36E00582173 /* ViewController.h */,
 				20EAF0691BC3B36E00582173 /* ViewController.m */,
+				20805FBC1C310BFD00320723 /* ViewController1.h */,
+				20805FBD1C310BFD00320723 /* ViewController1.m */,
 				20EAF06B1BC3B36E00582173 /* Main.storyboard */,
 				20EAF06E1BC3B36E00582173 /* Images.xcassets */,
 				20EAF0701BC3B36E00582173 /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20805FBE1C310BFD00320723 /* ViewController1.m in Sources */,
 				20EAF06A1BC3B36E00582173 /* ViewController.m in Sources */,
 				20EAF0671BC3B36E00582173 /* AppDelegate.m in Sources */,
 				20EAF0891BC3B37E00582173 /* TriangleView.m in Sources */,
@@ -424,6 +430,7 @@
 				20EAF0831BC3B36E00582173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20EAF0841BC3B36E00582173 /* Build configuration list for PBXNativeTarget "三角形Tests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				20EAF0861BC3B36E00582173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
