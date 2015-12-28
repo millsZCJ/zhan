@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blackColor];
-    TriangleView * view = [[TriangleView alloc] initWithFrame:CGRectMake(100, 100, 40, 20)];
+    TriangleView * view = [[TriangleView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    NSLog(@"hello");
     [self.view addSubview:view];
 }
 
